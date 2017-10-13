@@ -1,0 +1,44 @@
+
+/* Layout
+-----------------------------------------*/
+div#menubar h3 { display: none; }
+div#menubar ul { display: block; margin: 0; padding: 0; list-style: none; height: 97px; }
+div#menubar ul li { display: block; margin: 0 0 0 25px; padding: 0; float: left; height: 97px; }
+div#menubar ul ul { 
+	position: absolute; display: none;  width: 170px; float: none; 
+	margin: -10px 0 0 0 ; padding: 0 10px 5px 10px; height: auto; z-index: 9999999;
+}
+div#menubar ul ul li { padding: 5px; margin: 0; float: none; width: auto; height: auto; }
+div#menubar ul ul ul { float: left; margin: 0 0 0 160px; top: 0; }
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { display: block; z-index: 999999; }
+div#menubar ul li a { display: block; margin: 0; padding: 0; }
+div#menubar ul li a span.sf-sub-indicator { display: block; float: right; padding: 0 0 0 7px; }
+
+
+
+/* Colors and Images
+-----------------------------------------*/
+div#menubar ul li a { color: #999; }
+div#menubar ul li:hover a { color: #fff; } 
+div#menubar ul li.current-menu-item a { color: #fff; }
+
+div#menubar li:hover ul { background: transparent url('../images/bg-menubar-2.jpg') left top repeat; }
+div#menubar li:hover li, div#menubar li.hover li { background: transparent url('../images/bd-menubar-item-2.png') left bottom repeat-x; }
+div#menubar li:hover li a, div#menubar li.hover li a { color: #999; } 
+div#menubar li:hover li:hover a, div#menubar li.hover li.hover a { color: #fff; }
+div#menubar li:hover li.li-current-menu-item a, div#menubar li.hover li.current-menu-item a { color: #fff; }
+div#menubar li:hover li.current_page_item a, div#menubar li.hover li.current_page_item a { color: #fff; }
+
+div#menubar li:hover li:hover li a, div#menubar li.hover li.hover li a { color: #999; }
+div#menubar li:hover li:hover li:hover a, div#menubar li.hover li.hover li.hover a { color: #fff; }
+div#menubar li:hover li:hover li.li-current-menu-item a, div#menubar li.hover li.hover li.current-menu-item a { color: #fff; }
+div#menubar li:hover li:hover li.current_page_item a, div#menubar li.hover li.hover li.current_page_item a { color: #fff; }
+
+
+
+/* Typography
+-----------------------------------------*/
+
+div#menubar ul { font-family: 'Josefin Slab', serif; font-size: 14px; line-height: 97px; text-transform: uppercase; }
+div#menubar a { text-decoration: none; }
+div#menubar ul ul li { text-transform: none; font-size: 12px; line-height: 24px; text-transform: uppercase; }

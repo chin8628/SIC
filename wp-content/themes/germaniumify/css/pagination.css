@@ -1,0 +1,23 @@
+
+p.older-articles { display: block; margin: 20px 0 30px; padding: 0; float: left; }
+p.older-articles a { 
+	display: block; padding: 10px 20px;
+	font: normal 24px/28px 'Josefin Slab', sans-serif; text-transform: uppercase; 
+	background: transparent url('../images/bg-hentry-title-header.jpg') left top repeat; color: #fff;
+	text-decoration: none;
+}
+p.older-articles a:hover { text-decoration: underline; }
+
+div.pagination { padding: 20px 0 30px 0; height: 24px;  }
+div.pagination span, div.pagination a {
+	display: block; float: left; height: 24px;
+	margin: 0 10px 5px 0; padding: 0 10px; border: 1px solid #d0d0d0; text-decoration: none;
+	background: #fff none; color: #369; 
+	font: normal 12px/24px 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+div.pagination span.pages, div.pagination span.extend { color: #d0d0d0; }
+div.pagination span.current, div.pagination a:hover, div.pagination a:active {
+	color: #fff; background: #369 none;
+}
+

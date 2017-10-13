@@ -1,0 +1,20 @@
+/*
+Theme Name: Germaniumify
+Theme URI: http://www.paddsolutions.com/wordpress-theme-germaniumify/
+Description: Germaniumify is a freemium WordPress theme. Packed with a better framework and an admin options panel. Download more <a href="http://www.paddsolutions.com">free WordPress Themes</a>.
+Version: 1.0
+Author: Padd Solutions
+Author URI: http://www.paddsolutions.com
+Tags: magazine, custom font, fixed width, advertisement ready, valid css, valid xhtml, feature content gallery, twitter, youtube, freemium, social bookmarks, popular posts, related posts
+*/
+
+@import 'css/required.css';
+@import 'css/typography.css';
+@import 'css/layout.css';
+@import 'css/navigation.css';
+@import 'css/pagination.css';
+@import 'css/color.css';
+
+
+
+

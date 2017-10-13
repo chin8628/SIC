@@ -1,0 +1,24 @@
+Meeta
+http://www.wpzoom.com/themes/meeta
+ 
+CHANGELOG
+---------
+
+v 1.0.2 (July 20, 2012)
+
+	- Added support for native WordPress image cropping
+	- The theme doesn't uses TimThumb script for thumbnails cropping in Recent Posts widget
+	- modified files:
+		/functions/theme/functions.php
+		/functions/theme/widgets/recentposts.php
+ 
+
+v 1.0.1 (May 15, 2012)
+
+	- bug fix with images from Slideshow Shortcode not showing in IE.
+		modified files: style.css
+		
+ 
+v 1.0  (April 4, 2012)
+	
+	- initial release

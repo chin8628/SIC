@@ -1,0 +1,160 @@
+/*
+Section: Layout
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+body { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0 0 16px 0; padding: 16px 32px 0 32px; border: solid 1px; }
+iframe { display: block; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { display: block; }
+p { display: block; margin: 0 0 6px 0; padding: 0; }
+a { outline: 0; }
+a img { border: 0 none; }
+abbr { border: 0 none; }
+
+/* Class selectors
+-----------------------------------------*/
+.no-display { display: none; }
+.clear { clear: both; }
+
+/* Container
+-----------------------------------------*/
+div#container { }
+
+/* Header
+-----------------------------------------*/ 
+div#header { padding: 0 0 10px 0; }
+div#header .inner { width: 960px; margin: 0 auto; padding: 10px 0 0 0; position: relative; }
+div#header h3 { display: none; }
+div#header .box-masthead { height: 97px; float: left; }
+div#header .title { display: block; margin: 0; padding: 0; }
+div#header .title a { display: block; margin: 0 auto; padding: 0; width: 341px; height: 97px; text-indent: -999999px; }
+div#header .description { display: none; }
+div#header .box-menubar { float: right; }
+
+/* Body
+-----------------------------------------*/
+div#body .pad { width: 960px; margin: 0 auto; padding: 20px 0; position: relative; }
+div#body div#content { width: 691px; margin: 0; padding: 0 ; float: left; }
+div#body div#content .pad { width: auto; margin: 0; }
+div#body div#content .t { height: 19px; }
+div#body div#content .m { padding: 0 50px; }
+div#body div#content .b { height: 19px; }
+div#body div#sidebar { width: 250px; margin: 0; padding: 0; float: right; }
+div#body div#sidebar .pad { width: auto; margin: 0; }
+
+/* Content
+-----------------------------------------*/
+
+/* Post
+-----------------------------------------*/
+.hentry { padding: 10px 0 0 0; }
+.hentry p.breadcrumb { margin: 0 0 12px 0; }
+.hentry .title { margin: 0 0 0 -50px; padding: 0; float: left; }
+.hentry .title h1 { display: block; width: 570px; margin: 0; padding: 10px 10px 10px 50px; }
+.hentry .title h2 { display: block; width: 570px; margin: 0; padding: 10px 10px 10px 50px; }
+.hentry .meta { padding: 10px 0; clear: both; }
+.hentry .meta p { display: block; float: left; }
+.hentry .meta p a { border-bottom: 1px dotted; }
+.hentry .meta p a:hover { border-bottom: 0 none; }
+.hentry .meta ul { display: block; margin: 0; padding: 0;  float: right; }
+.hentry .meta ul li { display: block; margin: 0 0 0 10px; padding: 0; float: left; }
+.hentry .content { clear: both; }
+.hentry .excerpt p { display: block; margin: 0; padding: 20px 0; }
+.hentry .excerpt p.continue { padding-top: 0; }
+.hentry .excerpt p.continue a { border-bottom: 1px dotted; }
+.hentry .excerpt p.continue a:hover { border-bottom: 0 none; }
+.hentry-more-posts { margin: 0 0 20px 0; }
+.hentry-short { position: relative; padding: 10px 0 20px 0; }
+.hentry-short .title { margin: 0 0 0 80px; padding: 0; }
+.hentry-short .title h3 { margin: 0; padding: 0; }
+.hentry-short .thumbnail { position: absolute; left: 0; top: 5px; }
+.hentry-short .thumbnail img { padding: 5px; }
+.hentry-short .meta { margin: 0 0 0 80px; padding: 0; }
+.page .content { padding: 20px 0; }
+.not-found .content { padding: 20px 0; }
+.content-group .content-title { padding: 20px 0 10px 0; text-align: center; }
+
+/* Post Details
+-----------------------------------------*/
+.content-single .hentry .content { padding: 0 0 20px 0; }
+.content-single .hentry .post-box { padding: 0; margin: 0 0 16px 0; }
+.content-single .hentry .post-box .interior { clear: both; padding: 13px 0 0 0; }
+.post .post-box-share .interior ul { display: block; list-style: none; margin: 0; padding: 0; height: 32px; }
+.post .post-box-share .interior ul li { display: block; margin: 0 15px 0 0; padding: 0; float: left; }
+.post .post-box-share .interior ul li a { display: block; float: left; border: 0 none; }
+.post .post-box-share .interior ul li a img { border: 0 none; padding: 0;}
+.content-single .page .content { padding: 20px 0; }
+.content-single .hentry .post-box-related .interior { overflow: hidden; }
+.content-single .hentry .post-box-related .interior img { padding: 0; border: 0 none; width: 136px; height: 70px; }
+.content-single .hentry .post-box-related .interior ol { display: block; margin: 0; padding: 0; list-style-type: none; width: 680px; }
+.content-single .hentry .post-box-related .interior ol li { display: block; width: 136px; margin: 0 15px 0 0; padding: 0; float: left; }
+
+/* Comments
+-----------------------------------------*/
+ol.comments-list { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; }
+ol.comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0; }
+ol.comments-list li.comment ul.children { margin: 0 0 0 40px; }
+div.comment { border-bottom: 1px solid; margin: 0 0 20px 0; }
+div.comment .comment-author { width: 171px; float: left; }
+div.comment .comment-author .comment-avatar { margin: 0 10px 0 0; float: left; }
+div.comment .comment-author .comment-avatar img.avatar { border: 2px solid; padding: 1px; }
+div.comment .comment-author span { display: block; }
+div.comment .comment-details { margin: 0 0 0 171px; padding: 0 0 18px 18px; min-height: 100px; }
+div.comment .comment-actions { padding: 4px 0; text-align: right; }
+ol.trackbacks-list { margin: 0 0 0 3em; padding: 0; }
+
+/* Comment Form
+-----------------------------------------*/
+div#reply { margin: 0; padding: 0 0 16px 0; }
+div#reply label { display: block; padding: 0 0 3px 6px; }
+div#reply input { border: 1px solid; padding: 5px; }
+div#reply textarea { border: 1px solid; padding: 5px; width: 578px; }
+div#reply button { border: 0 none; margin: 0; padding: 0; width: 99px; height: 29px; cursor: hand; }
+div#reply button span { display: none; }
+div#reply p.comment-submit { text-align: right; margin: 0; padding: 0; }
+div#reply .input { display: block; margin: 0 0 10px 0; }
+div#reply .input-small { width: 280px; }
+div#reply .input-small input { width: 268px; }
+div#reply .input-name { float: left; }
+div#reply .input-email { float: right; }
+div#reply .input-website { clear: both; }
+div#reply .input-website input { width: 578px; }
+
+/* Sidebar
+-----------------------------------------*/
+div#sidebar h2 { display: none; }
+div#sidebar .box { margin: 0 0 20px 0; padding: 0; }
+div#sidebar .box .title { padding: 10px; margin: 0 0 20px 0; }
+div#sidebar .box h3 { display: block; margin: 0; padding: 0;  }
+div#sidebar .box ul { display: block; margin: 0; padding: 0; }
+div#sidebar .box ul li { display: block; margin: 0 0 10px 0; padding: 0; }
+div#sidebar .box ul ul { display: block; margin: 0; padding: 0 0 0 1em; }
+div#sidebar .box-ads .title { display: none; }
+div#sidebar .box-search .interior { height: 41px; }
+div#sidebar .box-search p { display: block; margin: 0; padding: 0; }
+div#sidebar .box-search label { display: none; }
+div#sidebar .box-search input { border: 0 none; width: 230px; margin: 0; padding: 14px 10px; float: left; }
+div#sidebar .box-search button { display: none; }
+div#sidebar .box-socialnet ul li { float: left; width: 32px; height: 32px; margin: 0 18px 0 0; padding: 0; }
+div#sidebar .box-socialnet ul li a { display: block; width: 32px; height: 32px; text-indent: -999999px; margin: 0; padding: 0; }
+div#sidebar .box-popular-posts .interior { }
+div#sidebar .box-popular-posts .interior ul { display: block; margin: 0; padding: 0; list-style: none; }
+div#sidebar .box-popular-posts .interior ul li { min-height: 57px; margin: 0 0 16px 0; padding: 0; }
+div#sidebar .box-popular-posts .interior ul li img { float: left; padding: 5px; }
+div#sidebar .box-popular-posts .interior ul li span.wpp-post-title { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-popular-posts .interior ul li span.post-stats { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-tweet ul li { padding: 0 0 0 30px; }
+div#flickrrss { position: relative; width: 250px; }
+div#flickrrss .interior { width: 290px; margin: 0; overflow: hidden; }
+div#flickrrss a { display: block; float: left; margin: 0 12px 12px 0; border: 0 none; }
+div#flickrrss img { border: 0 none; }
+
+/* Footer
+-----------------------------------------*/
+div#footer .pad { width: 960px; margin: 0 auto; padding: 0 5px; position: relative; }
+div#footer p { display: block; margin: 0; padding: 10px 0; }
+div#footer p.copyright { float: left; }
+div#footer p.annotation { float: right; width: 505px; }
