@@ -2,7 +2,7 @@
 ﻿
 ﻿Config SIC Project
   - Install Wordpress
-  - open "install.php" and setting database config
+  - open "install.php" and setting database config **PLEASE INSTALL IT**(From Someone in the world) 
   - create column permission at wp-users
       `ALTER TABLE  wp_users ADD  permission INT NOT NULL DEFAULT 0`;
   - edit value column 'permission' where admin' value
